@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Tech Solutions Home</title>
+        <title>CT_Tech Solutions Home</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -61,7 +61,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="text-center display-1"><strong>💻WELCOME TO CT_TECH GLOBAL SOLUTIONS🌏</strong> </h1>
+                            <h1 class="text-center display-1"><strong>💻WELCOME TO      CT_TECH      GL🌏BAL      SOLUTIONS ⚡</strong> </h1>
                             <!-- <p class="text-center">We are a tech company that provides solutions to your tech problems</p> -->
                         </div>  
                     </div>
@@ -116,7 +116,7 @@
             <br>
                 <div class="row">
                     <div class="col-md-3">
-                        <h2> Software Development</h2>
+                        <h2 class ="text-center"> Software Development</h2>
                         <br>
                         <br>
                         <img src="sofware development.jpg" alt="software development picture here">
@@ -136,7 +136,7 @@
 
                     </div>
                     <div class="col-md-3">
-                        <h2> Hardware Integration</h2>
+                        <h2 class ="text-center"> Hardware Integration</h2>
                         <br>
                         <br>
                         <img src="hardware integration.jpg" alt="hardware integration picture here">
@@ -155,7 +155,7 @@
 
                     </div>
                     <div class="col-md-3">
-                        <h2> Cyber Networking</h2>
+                        <h2 class ="text-center"> Cyber Networking</h2>
                         <br>
                         <br>
                         <img src="cybernetworking.jpg" alt="cybernetworking picture here">
@@ -173,8 +173,8 @@
                         </ol>
 
                     </div>
-                    <div class="col-md-3">
-                        <h2> Cyber Security</h2>
+                    <div class="col-md-3 ">
+                        <h2 class ="text-center"> Cyber Security</h2>
                         <br>
                         <br>
                         <img src="cyber security.jpg" alt="cybersecurity picture here">
@@ -193,6 +193,112 @@
         </section>
 
 
+        <form>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">CONTACT US</h1>
+                        <br>
+                        <p class="text-center">We would love to hear from you. Please fill out the form below and we will get back to you as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- invalid feedback = "Please enter your full name" -->
+            <div class="form-floating mb-3">
+                <!-- Input -->
+                <input
+                type="text"
+                class="form-control"
+                id="full-name"
+                name="full-name"
+                placeholder="Enter your full name"
+                required
+                />
+
+                <!-- Label for input -->
+                <label for="full-name">Full Name</label>
+
+                <!-- Valid feedback -->
+                <div class="valid-feedback">Looks good!</div>
+
+                <!-- Invalid feedback -->
+                <div class="invalid-feedback">Please enter your full name</div>
+            </div>
+
+            <!-- Email -->
+            <!-- Valid feedback = "Looks good!" -->
+            <!-- Invalid feedback = "Please enter a valid email address" -->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                <label for="email">Email</label>
+
+                <!-- Valid -->
+                <div class="valid-feedback"></div>
+
+                <!-- Invalid -->
+                <div class="invalid-feedback"></div>
+            </div>
+
+            <!-- Phone number -->
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}">
+                <label for="phone">Phone</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+            </div>
+            </fieldset>
+
+            <!-- Product category -->
+            <div class="form-group col-md-6">
+                <label for="productCategory">Interest</label>
+                <select id="productCategory" class="form-control" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option >Phone</option>
+                    <option>Computer</option>
+                    <option>Tablet</option>
+                </select>
+            </div>
+            <br>
+            <!-- Message -->
+            <div class="form-floating mb-3">
+            <textarea class="form-control" name="message" id="message" rows="6" placeholder="Your message here" required></textarea>
+            <label for="message">Message</label>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <br>
+            <br>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletterCheck">
+                                <label class="form-check-label" for="newsletterCheck">Subscribe to Our Newsletter</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="textEmailCheck">
+                                <label class="form-check-label" for="textEmailCheck">Agree to receive Text Messages and Emails</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="termsCheck" required>
+                                <label class="form-check-label" for="termsCheck">Agree to terms and conditions</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button  type="submit" class="btn btn-success col-md-12">Submit</button>
+        </form>
 
     </main>
         <footer>
@@ -210,5 +316,8 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        </section>
+
     </body>
 </html>
